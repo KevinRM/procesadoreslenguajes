@@ -5,13 +5,16 @@ body{
   margin-top:30px;
   margin-bottom:20px;
 
-  background-image:url(/imagenes/Fondo3.png);
+  background-image:url(imagenes/Fondo3.png);
   background-attachment:fixed;
   background-repeat:repeat;
 
   }
 
-dl{
+#menu dl{
+
+  float:left;
+  margin-top:40;
 
   width:185;
   height:auto;
@@ -28,4 +31,7 @@ dl{
   font-size:14;
   font-weight:bold;
 
+}
+#contenido{
+  margin-left:220;
 }
